@@ -64,12 +64,26 @@ th, td {
 }
 
 th {
-    background-color: #094074;
-    color: white;
+    background-color: #25e766;
+    color: rgb(24, 6, 6);
 }
 
 .footer {
-    background-color: #5ADBFF;
+    background-color: #dee4e6;
     padding: 0.5em;
     text-align: right;
+}
+tr:nth-child(even){
+    background-color: blue;
+    }
+    tr:nth-child(odd){
+    background-color: rgb(161, 240, 15);
+    }
+tr:hover{
+    background-color: #ebf3ee;
+    color: #010203;
+}
+#foto1:hover{
+ padding: 5em;   
+ background-color: #010203;
 }
